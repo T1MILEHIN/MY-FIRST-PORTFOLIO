@@ -17,7 +17,7 @@ div.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 7px;
     animation-name: logo;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
