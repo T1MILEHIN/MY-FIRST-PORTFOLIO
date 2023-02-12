@@ -987,6 +987,10 @@ div form {
     .stat, #exp {
         flex-wrap: wrap;
     }
+    #exp {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .picture img {
         margin: 0 auto;
     }
@@ -1023,8 +1027,12 @@ div form {
     }
     .client div {
         padding: 0 12vw 0 3vw;
-        margin-bottom: 1vh;
+        margin-bottom: 2vh;
     }
+    section.testimony>div.client {
+        overflow: hidden;
+    }
+
     #comment {
         display: none;
     }
@@ -1064,7 +1072,6 @@ div form {
         width: fit-content;
     }
     body{
-        border: 1px solid;
         width: 100%;
     }
     .selected #grid div {
