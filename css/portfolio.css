@@ -1059,7 +1059,7 @@ div form {
 }
 @media screen and (max-width: 700px) {
     body{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     .selected #grid div {
         grid-column: span 12;
