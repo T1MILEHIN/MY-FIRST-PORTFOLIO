@@ -219,6 +219,7 @@ div.hero-text div p {
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
     margin: 1vh 10vw;
+    overflow: hidden;
 }
 
 .picture img {
@@ -248,7 +249,7 @@ div.hero-text div p {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 2px;
 }
 
 #exp h1 {
@@ -272,16 +273,16 @@ div.hero-text div p {
     border: none;
     color: white;
     background-color: rgb(109, 83, 206);
-    font: 900;
     border-radius: 20px;
     margin-top: 7vh;
+    margin-bottom: 2vh;
     display: flex;
     align-items: center;
     font-weight: 800;
 }
 
 #hi i {
-    margin-left: 1vw;
+    margin-left: 2vw;
     font-size: 1.2rem;
 }
 
@@ -309,9 +310,10 @@ div.hero-text div p {
 
 .service .part {
     margin-top: 5vh;
+    margin-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(12, 3fr);
-    gap: 2vw;
+    gap: 4vw;
 }
 
 .service .part div {
@@ -997,7 +999,7 @@ div form {
     #diff-click p {
         margin-bottom: 5vh;
     }
-    .service .part div {
+    .service .part > div {
         grid-column: span 6;
     }
     .selected #grid div {
@@ -1054,7 +1056,7 @@ div form {
 
 }
 @media screen and (max-width: 700px) {
-    header,section, footer {
+    header,section {
         overflow-y: hidden;
     }
     footer>div {
@@ -1071,15 +1073,18 @@ div form {
     .service .part div {
         grid-column: span 12;
         margin: 0 auto;
-        width: 50vw;
+        width: 70vw;
     }
     .company #brand {
         display: flex;
         margin: 0 auto;
     }
     #brand div {
-        padding: 10px;
+        padding: 20px;
+        margin: 2px;
     }
-    
+    textarea {
+        height: 20vh;
+    }
     
 }
