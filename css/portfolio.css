@@ -1049,17 +1049,21 @@ div form {
     }
     #contact {
         grid-column: span 12;
-        width: 80vw;
-        white-space: wrap;
-    }
-    div.bottom {
-        width: 80vw;
+        
     }
 
 }
 @media screen and (max-width: 700px) {
-    body{
+    header,section, footer {
+        overflow-y: hidden;
+    }
+    footer>div {
         overflow-x: hidden;
+        width: fit-content;
+    }
+    body{
+        border: 1px solid;
+        width: 100%;
     }
     .selected #grid div {
         grid-column: span 12;
