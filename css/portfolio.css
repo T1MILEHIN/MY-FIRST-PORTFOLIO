@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 div.logo {
     margin-left: 10vw;
     width: 60px;
